@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header
             css={css`
-                background-color: #333;
+                background-color: #222;
                 padding: 1rem;
             `}
         >
@@ -17,7 +17,7 @@ export default function Header() {
                 @media (min-width: 768px){
                     display: flex;
                     align-items: center;
-                    justofy-content: space-between;
+                    justify-content: space-between;
                 }
             `}>
                 <h1 css={css`

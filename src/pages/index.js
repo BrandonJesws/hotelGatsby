@@ -1,9 +1,12 @@
 import React from "react";
 import Layout from '../components/Layout';
+import ImageHotel from '../components/ImagenHotel';
+import ContenidoInicio from '../components/ContenidoInicio';
 
 const IndexPage = () => (
   <Layout>
-    <h1>Index</h1>
+    <ImageHotel />
+    <ContenidoInicio />
   </Layout>
 )
 
